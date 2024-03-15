@@ -1,12 +1,8 @@
 Package: oily.golem
-Title: An Amazing Shiny App
+Title: Fintech Love
 Version: 0.0.0.9000
-Authors@R: 
-    person(given = "firstname",
-           family = "lastname",
-           role = c("aut", "cre"),
-           email = "your@email.com")
-Description: What the package does (one paragraph).
+Authors@R: person('Olivier', 'Haley', email = 'ohaley@ualberta.ca', role = c('cre', 'aut'))
+Description: Practice
 License: What license is it under?
 Imports: 
     config (>= 0.3.2),
