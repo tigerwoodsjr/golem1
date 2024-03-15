@@ -20,11 +20,11 @@
 ##
 golem::fill_desc(
   pkg_name = "oily.golem", # The Name of the package containing the App
-  pkg_title = "PKG_TITLE", # The Title of the package containing the App
-  pkg_description = "PKG_DESC.", # The Description of the package containing the App
-  author_first_name = "AUTHOR_FIRST", # Your First Name
-  author_last_name = "AUTHOR_LAST", # Your Last Name
-  author_email = "AUTHOR@MAIL.COM", # Your Email
+  pkg_title = "Fintech Love", # The Title of the package containing the App
+  pkg_description = "Practice is so fun I love it.", # The Description of the package containing the App
+  author_first_name = "Olivier", # Your First Name
+  author_last_name = "Haley", # Your Last Name
+  author_email = "ohaley@ualberta.ca", # Your Email
   repo_url = NULL, # The URL of the GitHub Repo (optional),
   pkg_version = "0.0.0.9000" # The Version of the package containing the App
 )
@@ -47,7 +47,7 @@ usethis::use_lifecycle_badge("Experimental")
 usethis::use_news_md(open = FALSE)
 
 ## Use git ----
-usethis::use_git()
+usethis::use_github()
 
 ## Init Testing Infrastructure ----
 ## Create a template for tests
