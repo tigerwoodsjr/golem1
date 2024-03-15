@@ -10,7 +10,7 @@ app_ui <- function(request) {
     golem_add_external_resources(),
     # Your application UI logic
     fluidPage(
-      h1("oily.golem"),
+      h1("Stock price app"),
       # main
       plotly::plotlyOutput("stock_plotly")
     )
