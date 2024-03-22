@@ -10,12 +10,18 @@ app_ui <- function(request) {
     golem_add_external_resources(),
     # Your application UI logic
     fluidPage(
-      h1("Stock price app"),
-      # main
-      plotly::plotlyOutput("stock_plotly")
+      shiny::tabsetPanel(
+        id = "tabset",
+        shiny::tabPanel(
+          title = "Home",
+          mod_SNP_ui("SNP_1"))
+      )
     )
   )
 }
+
+
+
 
 #' Add external Resources to the Application
 #'
